@@ -2,9 +2,10 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Image } from 'react-native';
-import { Comercio } from '../src/components/Comercio';
-import { Information } from '../src/components/Information';
-import { Input } from '../src/components/Input';
+import Comercio from '../src/components/Comercio';
+import Information from '../src/components/Information';
+import Input from '../src/components/Input';
+import Options from '../src/components/Options'
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
     <Comercio/>
     <Information/>
     <Input/>
+    <Options/>
     </>
 
   );

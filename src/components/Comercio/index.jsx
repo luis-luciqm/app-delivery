@@ -4,7 +4,7 @@ import { Logs } from 'expo';
 import { logo } from '../../assets/img/logotioComerce.png'
 import { Image } from 'react-native'
 
-export function Comercio(){
+export default function Comercio(){
     return (
         <View style={styles.commerce}>
             <Image source = {require('../../assets/img/logotioComerce.png')} />

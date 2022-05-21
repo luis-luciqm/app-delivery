@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyleSheet, Text, View, Image } from 'react-native';
 
-export function Information(){
+export default function Information(){
     return (
         <View style={styles.information}>
             <View style={styles.send}>

@@ -1,8 +1,7 @@
 import React from 'react'
 import { StyleSheet, Text, View, TextInput, Image } from 'react-native';
 
-export function Input(){
-
+export default function Input(){
     return (
         <View>
             <TextInput
