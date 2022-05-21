@@ -17,7 +17,7 @@ export default function Options(){
         <FlatList
         data={arrayDatas}
         horizontal = {true}
-        ItemSeparatorComponent={() => <View style={{width: 8}}></View> }
+        ItemSeparatorComponent={() => <View style={{width: 8}}></View> } // cria um objeto que separa os cards
         renderItem={({item, index})=>{
             return (
                 <View style={styles.options}>
@@ -37,7 +37,8 @@ const styles = StyleSheet.create({
         height: 24,
         width: 88,
         alignItems: 'center',
-        borderRadius: 24
+        borderRadius: 24,
+        marginBottom: -300
         
     },
 

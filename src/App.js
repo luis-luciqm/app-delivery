@@ -5,7 +5,8 @@ import { Image } from 'react-native';
 import Comercio from '../src/components/Comercio';
 import Information from '../src/components/Information';
 import Input from '../src/components/Input';
-import Options from '../src/components/Options'
+import Options from '../src/components/Options';
+import Card from '../src/components/Cards';
 
 export default function App() {
   return (
@@ -18,7 +19,7 @@ export default function App() {
           <Text style={styles.rua}>Rua Francisco Sales..</Text>
         </View>
       </View>
-      <Image source = {require('./assets/img/imgUser.png')} />
+      <Image style={styles.imageUser} source = {require('./assets/img/imgUser.png')} />
       <StatusBar style="auto" />
     </View>
 
@@ -26,6 +27,7 @@ export default function App() {
     <Information/>
     <Input/>
     <Options/>
+    <Card/>
     </>
 
   );
@@ -62,5 +64,11 @@ const styles = StyleSheet.create({
 
   rua: {
     fontWeight: 'bold'
+  },
+
+  imageUser: {
+    width: 38,
+    height: 38,
+    borderRadius: 50
   }
 });

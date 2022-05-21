@@ -1,8 +1,7 @@
-import React from 'react'
+import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Logs } from 'expo';
-import { logo } from '../../assets/img/logotioComerce.png'
-import { Image } from 'react-native'
+import { Image } from 'react-native';
 
 export default function Comercio(){
     return (
