@@ -5,7 +5,7 @@ export default function Options(){
 
     const arrayDatas = [
         'Destaques',
-        'A lá card',
+        'Á lá carte',
         'Executivos',
         'Hamburguer',
         'Hor Dog',
@@ -21,7 +21,7 @@ export default function Options(){
         renderItem={({item, index})=>{
             return (
                 <View style={styles.options}>
-                    <Text>{item}</Text>
+                    <Text style={styles.texts}>{item}</Text>
                 </View>
             )
         }}
@@ -31,14 +31,18 @@ export default function Options(){
 
 const styles = StyleSheet.create({
     options: {
-        top: 88,
-        left: 12
-
+        marginTop: 120,
+        left: 40,
+        backgroundColor: '#F9B233',
+        height: 24,
+        width: 88,
+        alignItems: 'center',
+        borderRadius: 24
+        
     },
 
     texts: {
-        left: 190,
-
+        fontWeight: 'bold',
     }
 
 });

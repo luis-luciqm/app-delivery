@@ -19,8 +19,7 @@ const styles = StyleSheet.create({
         left: 40,
         top: 82,
         backgroundColor: '#FFFFFF',
-        borderRadius: 10,
-        marginBottom: 20, 
+        borderRadius: 10, 
     },
 
     showDrop: {
