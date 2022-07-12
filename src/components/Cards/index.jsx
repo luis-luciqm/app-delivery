@@ -49,15 +49,17 @@ const styles = StyleSheet.create({
 
     container: {
         maxWidth: 350,
-        height: 130,
+        height: 122,
         display: 'flex',
-        borderWidth: 1,
+        borderWidth: 0.2,
+        marginTop: 20,
+        borderRadius: 8,
         
     },  
 
     list: {
         marginTop: 120,
-        left: 40,
+        left: 36,
         maxWidth: 330,
         borderRadius: 80
     },

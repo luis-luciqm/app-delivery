@@ -20,6 +20,7 @@ const styles = StyleSheet.create({
         top: 82,
         backgroundColor: '#FFFFFF',
         borderRadius: 10, 
+        paddingLeft: 20,
     },
 
     showDrop: {
